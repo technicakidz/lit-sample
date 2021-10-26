@@ -1,0 +1,27 @@
+{
+  "name": "lit-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "author": "ystk <taka.yoshida@opt.ne.jp> (http://technicakidz.hatenablog.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "lit-html": "1.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "2.1.0",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.5.0",
+    "prettier": "1.16.4",
+    "ts-loader": "5.3.3",
+    "typescript": "3.3.3",
+    "webpack": "4.29.3",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
+  }
+}
